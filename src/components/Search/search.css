@@ -1,0 +1,13 @@
+.search {
+  width: 100%;
+  background: none;
+  color: whitesmoke;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid var(--pink);
+  font-size: 18px;
+}
+
+.search-wrapper {
+  margin: 0 10px;
+}

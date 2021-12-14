@@ -1,0 +1,36 @@
+.card {
+  min-height: 250px;
+  min-width: 300px;
+  max-height: 400px;
+  max-width: 500px;
+  border-radius: 5px;
+  background-color: rgb(32, 32, 32);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cardInfo {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardInfoName {
+  font-size: 18px;
+}

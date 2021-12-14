@@ -1,0 +1,27 @@
+.header {
+  width: 200px;
+  display: flex;
+  margin: 20px 10px;
+} 
+
+.link {
+  text-decoration: none;
+  margin-right: 10px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--pink);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.55);
+  box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease-in-out;
+}
+
+.link--active {
+  color: var(--pink);
+}

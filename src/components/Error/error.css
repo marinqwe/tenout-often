@@ -1,0 +1,6 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  color: rgb(202, 30, 30);
+  margin-top: 10px;
+}
